@@ -1,0 +1,36 @@
+#clockContainer{
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-image: url("clock-face-without-hands.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+#hours, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hours{
+    height: 25%;
+    width: 2.5%;
+    top: 24.3%;
+    left: 49.4%;
+    
+}
+#minute{
+    height: 30%;
+    width: 1.5%;
+    top: 20%;
+    left: 49.4%;
+    
+}
+#second{
+    height: 35%;
+    width: 1.5%;
+    top: 15%;
+    left: 49.4%;
+  
+}
